@@ -1,14 +1,24 @@
 {
-  "name": "color-scheme",
+  "name": "@chenaff/color-scheme",
   "version": "1.0.0",
   "main": "cli.js",
   "author": "@monsieurRiz",
   "license": "MIT",
   "type": "module",
+  "public": "true",
   "scripts": {
     "start": "node src/cli.js"
   },
   "bin": {
     "color-scheme": "src/cli.js"
-  }
+  },
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cynthiahenaff/color-scheme-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cynthiahenaff/color-scheme-generator/issues"
+  },
+  "homepage": "https://github.com/cynthiahenaff/color-scheme-generator#readme"
 }

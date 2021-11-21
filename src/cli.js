@@ -9,7 +9,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-rl.question('What is your color? ', answer => {
+rl.question('What is your hexadecimal color? ', answer => {
   console.log(`Thank you for your color: ${answer}`);
 
   console.log('Here is your color scheme');
