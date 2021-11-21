@@ -1,9 +1,11 @@
 # color-scheme-generator
-# color-scheme-generator
 
-To generate your color scheme, run 
+Generate your colour gradient from a hexadecimal colour using a CLI
+
+
+Just run 
 ```
-yarn start 
+npx @chenaff/color-scheme
 ```
 
 Enter your color in hexadecimal
@@ -11,7 +13,7 @@ Enter your color in hexadecimal
 What is your color?
 ```
 
-And now, you have your generated color cheme 
+And now, you have your generated color gradient 
 ```
 Thank you for your color: #bada55
 Here is your color scheme
