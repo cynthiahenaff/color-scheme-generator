@@ -1,18 +1,17 @@
 {
   "name": "@chenaff/color-scheme",
-  "version": "1.0.0",
+  "description": "Generate your colour gradient from a hexadecimal colour using a CLI",
+  "version": "1.0.1",
   "main": "cli.js",
-  "author": "@monsieurRiz",
+  "author": "Cynthia Henaff <npm@henaff.io> (http://cynthiahenaff.com)",
   "license": "MIT",
   "type": "module",
-  "public": "true",
   "scripts": {
     "start": "node src/cli.js"
   },
   "bin": {
     "color-scheme": "src/cli.js"
   },
-  "description": "",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cynthiahenaff/color-scheme-generator.git"
