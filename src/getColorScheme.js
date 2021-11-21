@@ -1,4 +1,5 @@
 import hexToHSL from './utils/hexToHsl.js';
+import hslToHex from './utils/hslToHex.js';
 
 const tints = [900, 800, 700, 600, 500, 400, 300, 200, 100, 50];
 
@@ -27,12 +28,12 @@ export default inputColors => {
 
     return {
       tint,
-      color: `hsl(${hue},${saturation},${newLightness})`,
+      color: `hsl(${hue},${saturation}%,${newLightness}%)`,
     };
   });
 
   return colorScheme.reduce(
-    (prev, curr) => ({ ...prev, [curr?.tint]: curr?.color }),
+    (prev, curr) => ({ ...prev, [curr?.tint]: hslToHex(curr?.color) }),
     {},
   );
 };
