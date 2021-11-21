@@ -1,0 +1,14 @@
+{
+  "name": "color-scheme",
+  "version": "1.0.0",
+  "main": "cli.js",
+  "author": "@monsieurRiz",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node src/cli.js"
+  },
+  "bin": {
+    "color-scheme": "src/cli.js"
+  }
+}
